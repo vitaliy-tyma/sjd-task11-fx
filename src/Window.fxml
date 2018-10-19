@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TabPane layoutX="0.0" layoutY="0.0" prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="SELECTED_TAB" tabMaxHeight="1.7976931348623157E308">
+      <tabs>
+        <Tab text="(S)earch">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="404.0" prefWidth="619.0">
+              <children>
+                <Button layoutX="663.0" layoutY="56.0" mnemonicParsing="false" prefWidth="123.0" text="Search" />
+                <TextField layoutX="14.0" layoutY="55.0" prefWidth="612.0" />
+                <ScrollPane layoutX="0.0" layoutY="108.0" prefHeight="461.0" prefWidth="800.0">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+                  </content>
+                </ScrollPane>
+                <TextArea layoutX="15.0" layoutY="33.0" minHeight="0.0" prefHeight="22.0" prefWidth="428.0" text="Enter URL or ASIN" wrapText="true" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="(R)egister">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="169.0" prefWidth="450.0" />
+          </content>
+        </Tab>
+        <Tab text="(A)dd to cart">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>
